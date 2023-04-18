@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 10, 2023 at 03:44 PM
+-- Generation Time: Apr 18, 2023 at 04:34 PM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -49,7 +49,8 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`id`, `email_id`, `first_name`, `last_name`) VALUES
-(2, 'w@w.com', 'qw', 'ds');
+(2, '12354', 'lllllllllll', '7777777'),
+(11, 'ffff', 'ccccccc', NULL);
 
 -- --------------------------------------------------------
 
@@ -59,20 +60,18 @@ INSERT INTO `employees` (`id`, `email_id`, `first_name`, `last_name`) VALUES
 
 CREATE TABLE `users` (
   `id` bigint(20) NOT NULL,
-  `email` varchar(180) DEFAULT NULL,
-  `fullname` varchar(180) DEFAULT NULL
+  `fullname` varchar(180) DEFAULT NULL,
+  `email` varchar(180) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `email`, `fullname`) VALUES
-(1, 'Josh@yahoo.com', 'Joshua Arias'),
-(2, 'andres@yahoo.com', 'Andres Arias'),
-(3, 'xssss', 'sadadA'),
-(4, 'aaaaa', 'ddddd'),
-(5, 'ffff@fff.com', 'sadadA');
+INSERT INTO `users` (`id`, `fullname`, `email`) VALUES
+(1, 'Luis Arias', 'landreshn@gmail.com'),
+(2, 'Andres Arias', 'andres@yahoo.com'),
+(10, 'ajano', 'nano');
 
 --
 -- Indexes for dumped tables
@@ -98,13 +97,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `employees`
 --
 ALTER TABLE `employees`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

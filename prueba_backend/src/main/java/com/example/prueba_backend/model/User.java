@@ -13,11 +13,11 @@ public class User {
     @Column(name="email", length = 180)
     private String email;
     public User() { }
-    public User(String parFullname, String parEmail){
-        super();
-        this.fullname = parFullname;
-        this.email = parEmail;
-    }
+        public User(String parFullname, String parEmail){
+            super();
+            this.fullname = parFullname;
+            this.email = parEmail;
+        }
     public long getId() {
         return id;
     }
@@ -27,7 +27,6 @@ public class User {
     public String getFullname(){
         return fullname;
     }
-
     public void setFullname(String fullname) {
         this.fullname = fullname;
     }

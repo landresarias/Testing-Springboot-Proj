@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c724bd7c-1dfa-4138-8888-8cf29bc2d43b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ReadMeBackend.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReadMeFrontend.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba_backend/ReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba_backend/src/main/java/com/example/prueba_backend/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prueba_frontend/ReadMe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba_backend/src/main/java/com/example/prueba_backend/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_backend/src/main/java/com/example/prueba_backend/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba_backend/src/main/java/com/example/prueba_backend/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_backend/src/main/java/com/example/prueba_backend/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba_backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba_frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba_frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba_frontend/src/components/AddUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_frontend/src/components/AddUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba_frontend/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_frontend/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prueba_frontend/src/components/ViewUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_frontend/src/components/ViewUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../test.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ObJrVkSrOmWJ2AOEwSeAaEssU0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/landr/Documents/Internship_Project_Luis/Testing-Springboot-Proj/prueba_frontend",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="TestBackendSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="test_backend_springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.test_backend_springboot.TestBackendSpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c724bd7c-1dfa-4138-8888-8cf29bc2d43b" name="Changes" comment="" />
+      <created>1681823546987</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681823546987</updated>
+      <workItem from="1681823548254" duration="3726000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

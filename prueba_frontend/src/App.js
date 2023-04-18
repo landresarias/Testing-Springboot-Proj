@@ -7,18 +7,19 @@ import AddUser from "./components/AddUser";
 import ViewUser from "./components/ViewUser";
 import Footer from "./components/Footer";
 
-function App() {
+export default function App() {
   return (
     <BrowserRouter className="App">
       <NavBar />
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/adduser" element={<AddUser/>}/>
-            <Route path="/viewuser" element={<ViewUser/>}/>
+            <Route path="/adduser/:id" element={<AddUser/>}/>
+            <Route path="/viewuser/:id" element={<ViewUser/>}/>
         </Routes>
       <Footer />
     </BrowserRouter>
   );
 }
 
-export default App;
+

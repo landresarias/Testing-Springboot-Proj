@@ -1,81 +1,43 @@
-import React, {useState} from 'react'
-import { useParams } from "react-router-dom";
+import React, {useEffect,useState} from 'react'
+import { Link,useParams } from "react-router-dom";
 
-
-export default function ViewUser(props) {
+export default function ViewUser() {
     const {id} = useParams()
-    const URL_VIEW = 'http://localhost:8080/api/users/view/2'
-    const [viewUser, setUserView] = useState([]);
+    const [userDet, setUserDet] = useState([]);
+    const url = `http://localhost:8080/api/users/view/${id}`;
 
-
-   /*const onSubmitPD = async ({id}) => {
-        const data = { 'id': id, };
-        const responseJson = await getData1(URL_VIEW, data);
-        if (responseJson.connected) {
-            setUserView(responseJson);
+    useEffect(()=>{
+        const getUserView = async () => {
+            const res = await fetch(url);
+            const getData = await res.json();
+            setUserDet(getData);
+            console.log(getData);
         }
-        else {
-            alert("Bla bla bla");
-        }
-    };
-
-    const getData1 = async (url, data2) => {
-        const resp = await fetch(url, {
-            method: 'POST',
-            body: JSON.stringify(data2),
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        });
-        const json = await resp.json();
-        return json;
-    };*/
-
+        getUserView();
+    }, []);
 
     return (
         <div>
-            <h1>{"que props: "+props}</h1>
             <br></br>
-            <div className = "card col-md-6 offset-md-3">
+            <div className = "card col-md-5 offset-md-4">
                 <h3 className = "text-center"> View Employee Details</h3>
                 <div className = "card-body">
-                    <div className = "row">
-                        <label> Full Name User: </label>
-                        <div> { viewUser.fullname }</div>
-                    </div>
-                    <div className = "row">
-                        <label> Email User: </label>
-                        <div> {viewUser.email }</div>
+                    <div >
+                        <div className = "row" key={userDet.id} >
+                            <label style={{width:'25%',marginLeft:'2%',fontWeight:'700'}}> User ID: </label>
+                            <span className='form-control' type='text' style={{width:'70%'}}> { userDet.id }</span>
+                            <label style={{width:'25%',marginLeft:'2%',fontWeight:'700'}}> User Full Name: </label>
+                            <span className='form-control' type='text' style={{width:'70%'}}> { userDet.fullname }</span>
+                            <label style={{width:'25%',marginLeft:'2%',fontWeight:'700'}}>  User Email: </label>
+                            <span className='form-control' type='text' style={{width:'70%'}}>{ userDet.email }</span>
+                        </div>
+                        <Link to="/" style={{float:'right'}}>Back to home</Link>
                     </div>
                 </div>
 
             </div>
-
         </div>
     )
 
 }
 
-
-
-
-
-
-
-
-
-
-/*
-    <div className = "row">
-        <label> Employee First Name: </label>
-        <div> { this.state.employee.firstName }</div>
-    </div>
-    <div className = "row">
-        <label> Employee Last Name: </label>
-        <div> { this.state.employee.lastName }</div>
-    </div>
-    <div className = "row">
-        <label> Employee Email ID: </label>
-        <div> { this.state.employee.emailId }</div>
-    </div>
-*/
