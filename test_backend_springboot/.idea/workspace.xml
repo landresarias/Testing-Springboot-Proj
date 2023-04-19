@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c724bd7c-1dfa-4138-8888-8cf29bc2d43b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ReadMeBackend.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ReadMeFrontend.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prueba_backend/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prueba_backend/src/main/java/com/example/prueba_backend/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../prueba_frontend/ReadMe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prueba_backend/src/main/java/com/example/prueba_backend/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_backend/src/main/java/com/example/prueba_backend/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prueba_backend/src/main/java/com/example/prueba_backend/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_backend/src/main/java/com/example/prueba_backend/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prueba_backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prueba_frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prueba_frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prueba_frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prueba_frontend/src/components/AddUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_frontend/src/components/AddUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prueba_frontend/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_frontend/src/components/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../prueba_frontend/src/components/ViewUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../prueba_frontend/src/components/ViewUser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../test.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,10 +42,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/landr/Documents/Internship_Project_Luis/Testing-Springboot-Proj/prueba_frontend",
+    "last_opened_file_path": "C:/Users/landr/Documents/Internship_Project_Luis/Testing-Springboot-Proj/prueba_backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681823546987</updated>
-      <workItem from="1681823548254" duration="3726000" />
+      <workItem from="1681823548254" duration="4326000" />
+      <workItem from="1681831220243" duration="12000" />
     </task>
     <servers />
   </component>

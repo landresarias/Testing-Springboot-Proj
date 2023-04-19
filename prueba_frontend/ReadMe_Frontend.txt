@@ -12,4 +12,6 @@ an Update button to modify data of a specific record (by ID).
 click on the Add button and enter data in the text fields, a new record will be created (save) or
 you can exit without saving (Cancel).
 7.- Click on the Update button, the data of the chosen record is loaded, which can be modified
-if you click Save or not save if you click Cancel
+if you click Save or not save if you click Cancel.
+
+I am using IntelliJ IDEA platform 2022.3.3 (Ultimate Edition) for frontend(react js) and backend(Spring Boot).

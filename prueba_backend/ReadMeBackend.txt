@@ -1,4 +1,5 @@
 This text file is a guide on how to start the test backend in postman.
+
 1.- I have created a local database connection in MySQL, called test. In the backend, following the path
 src/main/resources/ in the application.properties file, I code the necessary elements for the connection.
 2.- In the path src/main/java/com.example.prueba_backend I have created several packages to configure the handling of the data.
